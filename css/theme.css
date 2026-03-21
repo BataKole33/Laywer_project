@@ -12314,4 +12314,24 @@ header .navbar-nav .nav-item .nav-link {
 .info-section .info-data p, .info-section .info-data a {
   color: #586C88;
   text-decoration: none;
+}
+
+footer {
+  padding: 2.8rem 0 2.7rem;
+}
+footer .copyright {
+  color: #586C88;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+footer .social .social-icon {
+  color: #000;
+  font-size: 2rem;
+  margin: 0 5px;
+  text-decoration: none;
+  transition: 0.7s linear;
+}
+footer .social .social-icon:hover {
+  transform: rotate(360deg);
 }/*# sourceMappingURL=theme.css.map */
