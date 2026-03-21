@@ -65,4 +65,22 @@ $(document).ready(function () {
             }
         });
     }
+
+    if ($(".team-slider").length > 0) {
+        $('.team-slider').owlCarousel({
+            loop: true,
+            dots: true,
+            nav: false,
+            // margin: 69,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                992: {
+                    items: 2,
+                    margin: 24
+                }
+            }
+        })
+    }
 });
